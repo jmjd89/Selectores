@@ -1,0 +1,20 @@
+p:first-child{
+    color: pink;
+}
+
+p:last-child{
+    color:brown;
+}
+
+p:nth-child(2n){
+color: yellow;
+}
+
+p:nth-child(2n + 1){
+    color: purple;
+}
+
+p::first-letter{
+    color: purple;
+    font-size: 30px;
+}
